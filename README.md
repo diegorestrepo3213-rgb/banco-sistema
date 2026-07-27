@@ -62,7 +62,7 @@ La aplicación quedará disponible en `http://localhost:3000` (ajustar puerto se
 
 ---
 
-## 🌳 Estructura de ramas (Git Flow)
+##  Estructura de ramas (Git Flow)
 
 ```
 main
