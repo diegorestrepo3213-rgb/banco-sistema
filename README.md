@@ -1,6 +1,6 @@
 # Sistema Bancario
 
-## 📖 Descripción del proyecto
+##  Descripción del proyecto
 
 Este proyecto es un **sistema bancario** desarrollado con fines académicos, que simula las operaciones básicas de una entidad financiera. Permite a los clientes autenticarse, registrarse, abrir cuentas, realizar depósitos, retiros, transferencias, consultar su saldo, revisar su historial de transacciones y pagar servicios. Además, cuenta con un módulo de administración para la gestión de usuarios del sistema.
 
@@ -8,7 +8,7 @@ El proyecto fue desarrollado en pareja siguiendo la metodología **Git Flow**, d
 
 **Objetivo del proyecto:** aplicar buenas prácticas de control de versiones (Git Flow), trabajo colaborativo en GitHub y desarrollo modular de software.
 
-## 📌 Enlace del repositorio
+##  Enlace del repositorio
 
 ```
 https://github.com/tu-usuario/banco-sistema
@@ -16,7 +16,7 @@ https://github.com/tu-usuario/banco-sistema
 
 ---
 
-## ⚙️ Instrucciones de ejecución
+##  Instrucciones de ejecución
 
 ### Requisitos previos
 - Git instalado
@@ -99,7 +99,7 @@ main
 
 ---
 
-## 🔄 Flujo de trabajo
+##  Flujo de trabajo
 
 ### Crear una feature
 ```bash
@@ -152,7 +152,7 @@ git push origin develop
 
 ---
 
-## 📝 Convención de commits
+##  Convención de commits
 
 Se recomienda seguir **Conventional Commits**:
 
@@ -179,7 +179,7 @@ test(depositos): agregar pruebas unitarias de depósito
 
 ---
 
-## 🔀 Convención de Pull Requests
+##  Convención de Pull Requests
 
 **Título del PR:**
 ```
@@ -193,7 +193,7 @@ Ejemplo: `[feature/depositos] Implementar registro de depósitos`
 - Capturas de pantalla (si aplica)
 - Checklist de revisión (ver abajo)
 
-### ✅ Checklist antes de solicitar revisión
+###  Checklist antes de solicitar revisión
 
 - [ ] El código sigue las convenciones del proyecto
 - [ ] Se agregaron/actualizaron pruebas unitarias
@@ -204,7 +204,7 @@ Ejemplo: `[feature/depositos] Implementar registro de depósitos`
 
 ---
 
-## 🧩 Módulos y funcionalidades
+##  Módulos y funcionalidades
 
 | Módulo | Descripción |
 |---|---|
@@ -221,7 +221,7 @@ Ejemplo: `[feature/depositos] Implementar registro de depósitos`
 
 ---
 
-## 📂 Estructura del proyecto
+##  Estructura del proyecto
 
 ```
 banco-sistema/
@@ -254,7 +254,7 @@ banco-sistema/
 
 ---
 
-## 👥 Reparto del trabajo entre aprendices
+##  Reparto del trabajo entre aprendices
 
 El desarrollo se dividió en partes iguales entre los dos aprendices, asignando 5 módulos (features) a cada uno. Cada aprendiz fue responsable de crear su rama, desarrollar la funcionalidad, hacer sus propios commits y abrir el Pull Request correspondiente hacia `develop`.
 
@@ -280,7 +280,7 @@ El desarrollo se dividió en partes iguales entre los dos aprendices, asignando 
 
 ---
 
-## 📜 Historial de ramas y commits (evidencia de participación)
+##  Historial de ramas y commits (evidencia de participación)
 
 Para comprobar el aporte individual de cada aprendiz, se puede consultar el historial de commits por rama y por autor con los siguientes comandos:
 
@@ -324,11 +324,11 @@ git log --graph --oneline --all
 
 Este comando permite visualizar en consola cómo cada rama `feature/*` fue creada desde `develop` y luego fusionada nuevamente, dejando evidencia clara de qué aprendiz trabajó en cada módulo y en qué momento.
 
-> 💡 **Nota:** para que este historial refleje correctamente la autoría de cada aprendiz, cada uno debe hacer sus commits desde su propia cuenta de GitHub (o configurar `git config user.name` y `git config user.email` correctamente en su entorno local antes de hacer commit).
+>  **Nota:** para que este historial refleje correctamente la autoría de cada aprendiz, cada uno debe hacer sus commits desde su propia cuenta de GitHub (o configurar `git config user.name` y `git config user.email` correctamente en su entorno local antes de hacer commit).
 
 ---
 
-## 🔒 Seguridad
+##  Seguridad
 
 Al ser un sistema bancario, se recomienda:
 - Mantener el repositorio **privado**.
